@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt || echo "No requirements.txt found"
 
       - name: Build .exe
-        run: pyinstaller export_tg_chat.py --onefile
+        run: pyinstaller chat_history_with_users_xlsx.py --onefile
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
