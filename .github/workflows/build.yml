@@ -27,8 +27,7 @@ jobs:
         run: pyinstaller export_tg_chat.py --onefile
 
       - name: Upload EXE
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: tg-export
           path: dist/export_tg_chat.exe
-
