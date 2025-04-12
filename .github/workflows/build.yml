@@ -30,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: tg-export
-          path: dist/export_tg_chat.exe
+          path: dist/chat_history_with_users_xlsx.exe
